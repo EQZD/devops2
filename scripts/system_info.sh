@@ -2,6 +2,8 @@
 
 echo "=== System Information ==="
 
+echo "Date and Time: $(date)"
+
 echo "Hostname: $(hostname)"
 
 echo "Kernel: $(uname -r)"
