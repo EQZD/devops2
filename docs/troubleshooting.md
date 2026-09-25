@@ -147,3 +147,13 @@ The recommended troubleshooting process is:
 7. Apply a fix.
 8. Test the system again.
 9. Document the solution.
+
+## Disk Monitoring
+
+The disk_check.sh script can be used to monitor disk space and memory usage.
+
+Before troubleshooting disk-related problems, check the available disk space with:
+
+df -h
+
+If disk usage is high, identify large directories and unnecessary files before taking corrective action.
